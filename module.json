@@ -1,0 +1,24 @@
+{
+    "name": "vnsource/module-video-gadget",
+    "displayName": "Module Video Gadget",
+    "type": "module",
+    "description": "The VnSource Module Video Gadget",
+    "homepage": "https://github.com/vnsource/module-video-gadget",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Open source VnSource",
+            "email": "demo.vns@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "VnsModules\\VideoGadget\\": "/"
+        }
+    },
+    "providers": [
+        "VnsModules\\VideoGadget\\ModuleServiceProvider"
+    ]
+}
